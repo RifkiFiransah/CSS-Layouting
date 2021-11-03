@@ -1,0 +1,15 @@
+.containerfloat{
+	width: 700px;
+	border: 2px solid grey;
+	margin: auto;
+	padding: 4px;
+	overflow: auto;
+}
+/*overflaw*/
+img {
+	float: left;
+	margin-right: 2px;
+}
+
+
+/* text wrapping */

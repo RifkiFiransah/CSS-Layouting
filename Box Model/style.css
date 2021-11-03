@@ -1,0 +1,19 @@
+.satu{
+	width: 200px;
+	height: 200px;
+	background-color: violet;
+	margin: 30px 50px 20px 40px;
+}
+
+.dua{
+	width: 150px;
+	height: 150px;
+	background-color: aqua;
+
+}
+
+.tiga{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}

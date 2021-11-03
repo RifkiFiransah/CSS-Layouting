@@ -1,0 +1,20 @@
+
+/*padding tidak bisa negatif dan auto, padding menambah ukuran elemen.*/
+
+div {
+	width: 600px;
+	margin: 20px auto;
+	box-sizing: border-box;
+}
+.satu{
+	background-color: lightgreen;
+	padding: 10px;
+	border: 15px dashed blue;
+}
+.dua{
+	background-color: yellow;
+	padding: 15px;
+	border: 10px dotted red;
+}
+/*border dashed, dotted and solid*/
+/*box-sizing = border-box */

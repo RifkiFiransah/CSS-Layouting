@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coba Positio Absolute & Fixed</title>
+	<style>
+		body{
+			height:2000px;
+		}	
+		div{
+			width: 200px;
+			height: 200px;
+			margin: auto;
+		}
+		.hijau{
+			background-color: green;
+			position: fixed;
+			width: 100%;
+			height: 20px;
+			top: 0px;
+			left: 0px;
+		}
+		.violet{
+			background-color: violet;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+		.yellow{
+			background-color: yellow;
+		}
+		.container{
+			width: 600px;
+			height: 650px;
+			border: 10px solid skyblue;
+			margin: auto;
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="hijau"></div>
+	<div class="violet"></div>
+	<div class="yellow"></div>
+</div>
+</body>
+</html>
